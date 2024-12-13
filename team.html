@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Medic | Medical HTML Template</title>
+
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+  
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+ <!-- Customized Bootstrap Stylesheet -->
+ <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+ <!-- تضمين ملفات WOW.js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init(); // تهيئة الحركات
+</script>
+
+</head>
+
+
+<body>
+  <div class="page-wrapper">
+    <!-- Preloader -->
+    <!-- <div class="preloader"></div> -->
+    <!-- Preloader -->
+
+
+<!--header top-->
+<div class="header-top">
+  <div class="container clearfix">
+        <div class="top-left">
+              <h6>مواعيد العمل : يوميا - 24 ساعة</h6>
+        </div>
+
+     
+
+
+        <div class="top-right">
+              <ul class="social-links">
+                    <li>
+                          <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                          </a>
+                    </li>
+                    <li>
+                          <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+                    </li>
+                    <li>
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                          </a>
+                    </li>
+                    <li>
+                          <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                    </li>
+                    <li>
+                          <a href="#">
+                            <i class="fa-brands fa-google"></i>
+                          </a>
+                    </li>
+              </ul>
+        </div>
+  </div>
+</div>
+<!--header top-->
+
+
+
+<!--Main Header-->
+
+<section class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="container">
+
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+        </button>
+
+        <!-- LOGO TEXT HERE -->
+        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""></a>
+    </div>
+
+    <!-- MENU LINKS -->
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="smoothScroll">الرئيسي</a></li>
+            <li><a href="about.html" class="smoothScroll">حول الموقع</a></li>
+            <li><a href="department.html" class="smoothScroll">الأقسام </a></li>
+            <li><a href="team.html" class="smoothScroll">الأطباء</a></li>
+            <li><a href="contact.html" class="smoothScroll">تواصل معنا</a></li>
+            <li class="appointment-btn"><a href="appointment.html">احجز الآن</a></li>
+        </ul>
+    </div>
+
+</div>
+</section>
+
+<!--End Main Header -->
+
+
+<!--Page Title-->
+<section class="page-title text-center wow fadeInUp" data-wow-delay="0.1s" style="background-image:url(images/background/3.jpg);">
+    <div class="container">
+        <div class="title-text">
+            <h1>الاطباء</h1>
+            <ul class="title-menu clearfix">
+                <li>
+                    <a href="index.html">الرائيسي&nbsp;/</a>
+                </li>
+                <li>الاطباء</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--End Page Title-->
+
+<section class="team-section section wow fadeInUp" data-wow-delay="0.2s">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h3>اطباء
+                        <span>المستشفى</span>
+                    </h3>
+                    <p>تمتلك المستشفى افضل كادر وظيفي من حيث الجودة والاتقان -
+                        <br>لضمان تقديم افضل  علاج للمرضى ...</p>
+                </div>
+                <!-- Nav tabs -->
+                <div class="tabs wow fadeInUp" data-wow-delay="0.4s">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#doctor" data-toggle="tab">كل الاطباء</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#event-planning" data-toggle="tab">اطباء الباطنة</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#lab" data-toggle="tab">اطباء الجراحة</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#marketing" data-toggle="tab">اطباء الجلدية</a>
+                        </li>
+                        <li role="presentation">
+                              <a href="#gauny" data-toggle="tab">اطباء النساء والتوليد</a>
+                          </li>
+                          <li role="presentation">
+                              <a href="#nose" data-toggle="tab">اطباء الانف والحنجرة</a>
+                          </li>
+                    </ul>
+                </div>
+                
+                <div class="tab-content wow fadeInUp" data-wow-delay="0.5s">
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in active row" id="doctor">
+                        
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            
+                            <h6><a href="doctor-single.html" >د.احمد جمال</a></h6>
+                            <p>طب الطوارئ</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.سعيد عمر</h6>
+                          <p>طب الجلدية</p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6">
+
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                            <img src="images/team/event-3.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.نور عمر</h6>
+                        <p>طب الجراحة</p>
+                    </div>
+                  </div>
+
+
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.احمد عمر</h6>
+                          <p>طب الجراحة</p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                          <img src="images/team/doctor-3.jpg" class="img-responsive" alt="team">
+                          <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.ميرا عمر</h6>
+                        <p>طب الجراحة</p>
+                    </div>
+                </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="team-person text-center">
+                                
+                                <div class="img-container">
+                                  <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                                      <div class="social-icons">
+                                      <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                      <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                      <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                  </div>
+                              </div>
+                                <h6>د.محمد عمر</h6>
+                                <p>طب العيون</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                          <div class="team-person text-center">
+                              
+                              <div class="img-container">
+                                <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                                    <div class="social-icons">
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                    <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                </div>
+                            </div>
+                              <h6>د.احمد عمر</h6>
+                              <p>طب جلدية</p>
+                          </div>
+                      </div>
+
+                      
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.احمد عمر</h6>
+                            <p>طب الجراحة</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-1.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.ميرا عمر</h6>
+                          <p>طب الجراحة</p>
+                      </div>
+                  </div>
+
+
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-lab-1.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.مريم عمر</h6>
+                            <p>طب انف وحنجرة</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.احمد عمر</h6>
+                          <p>طب الحنجرة</p>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                          <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                          <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.نادر علي</h6>
+                        <p>طب انف وحنجرة</p>
+                    </div>
+                </div>
+                    </div>
+                    <!--End single tab content-->
+
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in row " id="event-planning">
+                      <div class="col-md-4 col-sm-6">
+                          <div class="team-person text-center">
+                              <div class="img-container">
+                                  <img src="images/team/doctor-3.jpg" class="img-responsive" alt="team">
+                                  <div class="social-icons">
+                                      <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                      <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                      <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                  </div>
+                              </div>
+                              <h6>د.حالد محمود</h6>
+                              <p>طب الباطنة</p>
+                          </div>
+                      </div>
+
+
+                      <div class="col-md-4 col-sm-6">
+                          <div class="team-person text-center">
+                              <div class="img-container">
+                                  <img src="images/team/event-2.jpg" class="img-responsive" alt="team">
+                                  <div class="social-icons">
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                    <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                </div>
+                              </div>
+                              <h6>د.خولة احمد</h6>
+                              <p>طب الباطنة</p>
+                          </div>
+                      </div>
+
+
+                      <div class="col-md-4 col-sm-6">
+                          <div class="team-person text-center">
+                              <div class="img-container">
+                                  <img src="images/team/event-3.jpg" class="img-responsive" alt="team">
+                                  <div class="social-icons">
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                    <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                </div>
+                              </div>
+                              <h6>د.مريم عمر</h6>
+                              <p>باطنة</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                    <!--End single tab content-->
+
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in row" id="lab">
+                      <div class="col-md-4 col-sm-6">
+
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                                <img src="images/team/event-3.jpg" class="img-responsive" alt="team">
+                                <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.نور عمر</h6>
+                            <p>طب الجراحة</p>
+                        </div>
+                      </div>
+
+
+                        <div class="col-md-4 col-sm-6">
+                          <div class="team-person text-center">
+                              <div class="img-container">
+                                <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                    <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                    <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                                </div>
+                              </div>
+                              <h6>د.احمد عمر</h6>
+                              <p>طب الجراحة</p>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-3.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.ميرا عمر</h6>
+                            <p>طب الجراحة</p>
+                        </div>
+                    </div>
+                        
+           
+                    </div>
+               
+                    <!--End single tab content-->
+
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in row " id="marketing">
+
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-3.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.فاطمة عمر</h6>
+                            <p>طب الجلدية</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.سعيد عمر</h6>
+                          <p>طب الجلدية</p>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                          <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                          <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.نادر عمر</h6>
+                        <p>طب الجلدية</p>
+                    </div>
+                </div>
+
+
+
+                    </div>
+                    <!--End single tab content-->
+
+
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in row " id="gauny">
+
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-3.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.هديل عمر</h6>
+                            <p>طب النساء</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.محمد عمر</h6>
+                          <p>طب نساء وتوليد</p>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                          <img src="images/team/event-1.jpg" class="img-responsive" alt="team">
+                          <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.فاطمة عمر</h6>
+                        <p>طب نساء وتوليد</p>
+                    </div>
+                </div>
+
+
+
+                    </div>
+                    <!--End single tab content-->
+
+
+                    <!--Start single tab content-->
+                    <div class="team-members tab-pane fade in row " id="nose">
+
+                      <div class="col-md-4 col-sm-6">
+                        <div class="team-person text-center">
+                            <div class="img-container">
+                              <img src="images/team/doctor-lab-1.jpg" class="img-responsive" alt="team">
+                              <div class="social-icons">
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                  <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                  <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                              </div>
+                            </div>
+                            <h6>د.مريم عمر</h6>
+                            <p>طب انف وحنجرة</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-6">
+                      <div class="team-person text-center">
+                          <div class="img-container">
+                            <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                                <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                                <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                            </div>
+                          </div>
+                          <h6>د.احمد عمر</h6>
+                          <p>طب الحنجرة</p>
+                      </div>
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="team-person text-center">
+                        <div class="img-container">
+                          <img src="images/team/doctor-2.jpg" class="img-responsive" alt="team">
+                          <div class="social-icons">
+                              <a href="#" class="social-icon"><span class="fa-brands fa-twitter"></span></a>
+                              <a href="#" class="social-icon"><span  class="fa-brands fa-facebook"></span></a>
+                              <a href="#" class="social-icon"><span class="fa-brands fa-instagram"></span></a>
+                          </div>
+                        </div>
+                        <h6>د.نادر علي</h6>
+                        <p>طب انف وحنجرة</p>
+                    </div>
+                </div>
+
+
+
+                    </div>
+                    <!--End single tab content-->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--footer-main-->
+<footer class="footer-main wow fadeInUp" data-wow-delay="0.9s">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="about-widget">
+            <div class="footer-logo">
+              <figure>
+                <a href="index.html">
+                  <img src="images/logo.png" alt="">
+                </a>
+              </figure>
+            </div>
+            
+            <ul class="list-inline social-icons">
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h6>Services</h6>
+          <ul class="menu-link">
+            <li>
+              <a href="index.html">
+              الرائيسي</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a href="about.html">
+             من نحن</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a href="department.html">
+                الاقسام</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a href="team.html">
+                الاطباء</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a href="contact.html">
+               تواصل معانا</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          
+            <h6>لتواصل معانا</h6>
+            <div class="about-widget">
+           
+            <p>نحن في خدمتكم على مدار 24 ساعة</p>
+            <ul class="location-link" dir="rtl">
+              <li class="item">
+                <i class="fa fa-map-marker"></i>
+                <p>الهضبة, طرابلس</p>
+              </li>
+              <li class="item">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="#">
+                  <p>Support@hospital.com</p>
+                </a>
+              </li>
+              <li class="item">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>(218) +91 000 0000</p>
+              </li>
+            </ul>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container clearfix">
+      <div class="copyright-text">
+        <p>&copy; Copyright 2018. All Rights Reserved by
+          <a href="index.html">hospital</a>
+        </p>
+      </div>
+    
+    </div>
+  </div>
+</footer>
+<!--End footer-main-->
+   
+
+
+
+</div>
+<!--End pagewrapper-->
+
+<script>
+  $(document).ready(function () {
+      $('.counter-counting span').counterUp({
+          delay: 10, // الزمن بين كل زيادة
+          time: 1000 // الزمن الكلي للوصول إلى الرقم النهائي
+      });
+  });
+</script>
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top">
+  <span class="icon fa fa-angle-up"></span>
+</div>
+
+<script src="plugins/jquery.js"></script>
+<script src="plugins/bootstrap.min.js"></script>
+<script src="plugins/bootstrap-select.min.js"></script>
+<!-- Slick Slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- FancyBox -->
+<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<script src="plugins/validate.js"></script>
+<script src="plugins/wow.js"></script>
+<script src="plugins/jquery-ui.js"></script>
+<script src="plugins/timePicker.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
